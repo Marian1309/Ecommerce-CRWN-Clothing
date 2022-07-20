@@ -1,0 +1,56 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "plugins": ["react", "@typescript-eslint"],
+  "rules": {
+    "linebreak-style": "off",
+    "no-unused-expressions": "off",
+    "no-multiple-empty-lines": "off",
+    "semi": "warn",
+    "no-unused-vars": "warn",
+    "prefer-const": "off",
+    "eol-last": "off",
+    "no-console": "off",
+    "no-plusplus": "off",
+    "global-require": "off",
+    "no-alert": "off",
+    "import/prefer-default-export": "off",
+    "react/function-component-definition": "off",
+    "arrow-body-style": "off",
+    "react/jsx-no-useless-fragment": "off",
+    "react/react-in-jsx-scope": "off",
+    "jsx-quotes": "off",
+    "max-len": ["off", { "code": 120 }],
+    "comma-dangle": "off",
+    "consistent-return": "off",
+    "no-return-await": "off",
+    "object-curly-newline": "off",
+    "no-trailing-spaces": "off",
+    "react/prop-types": "off",
+    "react/button-has-type": "off",
+    "react/jsx-props-no-spreading": "off",
+    "arrow-parens": "off",
+    "react/jsx-closing-tag-location": "off",
+    "react/jsx-indent": "off",
+    "spaced-comment": "off",
+    "react/jsx-tag-spacing": "off",
+    "react/jsx-closing-bracket-location": "off",
+    "object-curly-spacing": "off",
+    "quotes": "off"
+  }
+}
